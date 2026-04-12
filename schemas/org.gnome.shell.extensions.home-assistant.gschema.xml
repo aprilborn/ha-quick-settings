@@ -1,0 +1,37 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.home-assistant" path="/org/gnome/shell/extensions/home-assistant/">
+
+  <key name="mqtt-host" type="s">
+    <default>"192.168.0.1"</default>
+  </key>
+
+  <key name="mqtt-user" type="s">
+    <default>"login"</default>
+  </key>
+
+  <key name="mqtt-pass" type="s">
+    <default>"password"</default>
+  </key>
+
+  <key name="topic-button" type="s">
+    <default>"zigbee2mqtt/"</default>
+  </key>
+
+  <key name="webhook-button" type="s">
+    <default>"http://homeassistant.local:8123/api/webhook/home-assistant"</default>
+  </key>
+
+  <key name="topic-slider" type="s">
+    <default>"zigbee2mqtt/"</default>
+  </key>
+
+  <key name="button-topic-label" type="s">
+    <default>"MQTT Button"</default>
+  </key>
+
+  <key name="button-webhook-label" type="s">
+    <default>"Webhook Button"</default>
+  </key>
+
+  </schema>
+</schemalist>

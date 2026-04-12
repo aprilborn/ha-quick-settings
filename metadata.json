@@ -1,0 +1,9 @@
+{
+  "name": "Home Assistant Controls",
+  "description": "Quick settings Home Assistant controls",
+  "uuid": "home-assistant@local",
+  "settings-schema": "org.gnome.shell.extensions.home-assistant",
+  "shell-version": [
+    "46"
+  ]
+}
