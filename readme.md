@@ -1,14 +1,8 @@
-# Home Assistant Gnome Extension (`home-assistant@local`)
+# Gnome Extension
 
 A simple [GNOME Shell](https://www.gnome.org/gnome-shell/) extension to interact with your local [Home Assistant](https://www.home-assistant.io/) instance.
 
 ![Screenshot of Home Assistant GNOME Extension in Quick Settings](/icons/extension.webp)
-
-## Features
-
-- **Quick access to Home Assistant**: Access your smart home dashboard directly from the GNOME panel.
-- **One-click open**: Opens Home Assistant UI in your default browser.
-- **Configurable URL**: Optionally configure your Home Assistant instance address.
 
 ## Installation
 
