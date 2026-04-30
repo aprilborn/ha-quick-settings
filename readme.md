@@ -7,25 +7,27 @@ A simple [GNOME Shell](https://www.gnome.org/gnome-shell/) extension to interact
 ## Installation
 
 0. **Install Mosquitto client:**
-   ```sudo apt install mosquitto-clients```
+   ```bash
+   sudo apt install mosquitto-clients
+   ```
 
-1. **Clone this repo:**
+2. **Clone this repo:**
    ```bash
    git clone https://github.com/aprilborn/ha-quick-settings.git
    ```
 
-2. **Copy to extensions directory:**
+3. **Copy to extensions directory:**
    ```bash
    mv ha-quick-settings ~/.local/share/gnome-shell/extensions/home-assistant@local
    ```
 
-3. **Restart GNOME Shell:**
+4. **Restart GNOME Shell:**
    - Press <kbd>Alt</kbd> + <kbd>F2</kbd>, type `r` and press <kbd>Enter</kbd> (on Xorg), or log out and log in again.
 
-4. **Enable the extension:**
+5. **Enable the extension:**
    - Use [GNOME Extension Manager](https://extensions.gnome.org/local/) app or `gnome-extensions enable home-assistant@local`.
 
-5. **Enable retain messages:**
+6. **Enable retain messages:**
    - Home Assistant -> Z2M addon page -> Target device -> Settings -> ✓ Retain
 
 
